@@ -4,7 +4,7 @@
 
 /**
  * main - Print the last six digit of a randomly generated number
- * whether it is greater than 5, less than 6, or 0
+ * whether it is greater than 5, less than 6 and not 0, or 0
  *
  * Return: Always 0
 */
