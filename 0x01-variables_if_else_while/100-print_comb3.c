@@ -6,16 +6,16 @@
  */
 int main(void)
 {
-	int c, q;
+	int e, q;
 
-	for (c = '0'; c < '9'; c++)
+	for (e = '0'; e < '9'; c++)
 	{
-		for (q = c + 1; q <= 9; q++)
+		for (q = 0 + 1; q <= 9; q++)
 		{
-			putchar(c);
+			putchar(e);
 			putchar(q);
 
-			if (c == '8' && q == '9')
+			if (e == '8' && q == '9')
 				continue;
 			putchar(',');
 			putchar(' ');
@@ -24,4 +24,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
