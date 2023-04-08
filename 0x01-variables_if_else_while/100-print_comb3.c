@@ -8,7 +8,7 @@ int main(void)
 {
 	int e, q;
 
-	for (e = '0'; e < '9'; c++)
+	for (e = '0'; e < '9'; e++)
 	{
 		for (q = 0 + 1; q <= 9; q++)
 		{
