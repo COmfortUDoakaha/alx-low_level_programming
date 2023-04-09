@@ -6,7 +6,7 @@
  * main - print the mininmum number of coins
  * to make change for an amount of money
  * @argc: number of arguments
- * @argc: array of arguments
+ * @argv: array of arguments
  *
  * Return: 0 (success), 1 (Error)
  */
