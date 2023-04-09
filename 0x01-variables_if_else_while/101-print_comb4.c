@@ -3,7 +3,8 @@
 #include <time.h>
 
 /**
- * main - Entry point
+ * main - Prints all possible combinations of
+ * three digits
  *
  * Return: Always 0 (Success)
  */
@@ -29,6 +30,8 @@ int main(void)
 				}
 			}
 		}
+	}
 	putchar('\n');
 
 	return (0);
+}
