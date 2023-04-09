@@ -3,10 +3,10 @@
 #include <time.h>
 
 /**
- * main - Print different combination of
- * two digit
+ * main - Print all possible different
+ * combination of two digit
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -20,10 +20,8 @@ int main(void)
 			{
 				putchar(d);
 				putchar(p);
-
 				if (d == '8' && p == '9')
 					continue;
-
 				putchar(',');
 				putchar(' ');
 			}
