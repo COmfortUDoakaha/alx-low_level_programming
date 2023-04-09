@@ -3,7 +3,8 @@
 #include <time.h>
 
 /**
- * main - Print different combination of two digit
+ * main - Print different combination of
+ * two digit
  *
  * Return: Always 0 (success)
  */
